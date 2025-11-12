@@ -1,4 +1,5 @@
-const date = new Date();
+const timer = () => {
+  const date = new Date();
 
 const daysBlock = document.querySelector(".timer__days");
 const hoursBlock = document.querySelector(".timer__hours");
@@ -70,3 +71,7 @@ const updateTimer = () => {
 
 updateTimer();
 interval = setInterval(updateTimer, 500);
+
+}
+
+timer();

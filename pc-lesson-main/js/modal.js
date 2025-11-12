@@ -1,4 +1,5 @@
-const modalBtn = document.querySelector('.modal__button');
+const modal = () => {
+    const modalBtn = document.querySelector('.modal__button');
 
 const modal = document.querySelector('.modal');
 
@@ -12,3 +13,6 @@ modal.addEventListener('click', (event) =>{
         modal.style.display = ''
     }
 })
+}
+
+modal();
